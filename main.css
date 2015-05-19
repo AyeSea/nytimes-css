@@ -161,20 +161,67 @@ body {
 	height: 126px;
 }
 
+.article-category {
+	float: left;
+	text-transform: uppercase;
+	word-spacing: 0.25em;
+	font-weight: 800;
+	font-size: 13px;
+	font-family: arial,helvetica,sans-serif;
+	margin-bottom: 30px;
+}
+
+.comments-count {
+	float: right;
+	text-transform: uppercase;
+	font-family: arial,helvetica,sans-serif;
+	font-weight: 300;
+}
+
+.article-title {
+	clear: both;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	font-style: italic;
+}
+
+#author-date {
+	border-top: 1px solid #e2e2e2;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+#author-date p {
+	display: inline-block;
+	font-size: 11px;
+}
+
+#author-name {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-right: 7.5px;
+}
+
+/* Main Article - Primary Figure */
+
 #alan-guth {
 	border: 1px solid orange;
 	margin-bottom: 50px;
 }
 
 #alan-guth figcaption {
-	margin-left: 100px;
 	width: 800px;
+	color: #666;
+	font-size: 14px;
+	margin-top: 10px;
 }
 
 .figure-author {
 	font: 11.5px "times new roman", times, serif;
 	font-weight: 200;
 	color: #666;
+	line-height: 30px;
 }
 
 /* Main Article - Body */
