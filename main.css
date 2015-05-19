@@ -1,4 +1,4 @@
-/* Layout */
+/* General Layout & Site Container */
 
 body {
 	font-family: georgia, "times new roman", times, serif;
@@ -10,18 +10,19 @@ body {
 	border: 1px solid green;
 	display: block;
 	position: relative;
-	width: 98%;
+	width: 85%;
 	/* figure out why height not expanding automatically */
 	/* height: 100%; */
 	min-height: 6000px;
-	margin-left: 2%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 }
 
-/* Header */
+/* Site Header */
 
 #masthead {
 	position: fixed;
-	width: 98%;
+	width: 85%;
 	min-height: 47px;
 	border-bottom: 1px solid #ccc;
 }
@@ -34,16 +35,81 @@ body {
 	border-bottom: 1px solid #ccc;
 }
 
+/* Site Header - Top Left Buttons */
+
+.header-nav {
+	position: absolute;
+	left: 0;
+}
+
+.header-nav li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.btn {
+	font-family: "Open Sans", arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #fff;
+}
+
+.sections-btn {
+	border: 1px solid #cecece;
+	border-radius: 2px;
+	box-shadow: ;
+	height: 25px;
+}
+
+.icon {
+	display: inline-block;
+	border: 1px solid red;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.sprite-icon {
+	background: url(http://a1.nyt.com/assets/article/20150318-150424/images/sprite/sprite-no-repeat.svg) no-repeat -86px -182px;
+}
+
+/* Site Header - Center Logo */
+
+#logo {
+	position: absolute;
+	display: inline-block;
+	left: 45%;
+	margin-top: 15px;
+}
+
+/* Site Header - Top Right Buttons */
+
+.header-nav-right {
+	position: absolute;
+	right: 0;
+}
+
+.header-nav-right li {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.auth-btn {
+	background: #6288A5;
+	border: 1px solid #4D7B9F;
+	border-radius: 3px;
+	color: #fff;
+	margin-right: 10px;
+	height: 25px;
+}
+
 /* Main Article */
 
 .contents {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.article-header {
-	border: 1px solid blue;
-	height: 126px;
 }
 
 .article-main {
@@ -52,12 +118,16 @@ body {
 	max-width: 1050px;
 }
 
+/* Main Article - Header */
+
+.article-header {
+	border: 1px solid blue;
+	height: 126px;
+}
+
 #alan-guth {
 	border: 1px solid orange;
 	margin-bottom: 50px;
-}
-
-#alan-guth img {
 }
 
 #alan-guth figcaption {
@@ -71,6 +141,8 @@ body {
 	color: #666;
 }
 
+/* Main Article - Body */
+
 p, h3 {
 	border: 1px solid green;
 	margin-left: 260px;
@@ -79,7 +151,7 @@ p, h3 {
 }
 
 
-/* Footer Area */
+/* Site Index */
 
 .site-index {
 	position: absolute;
@@ -101,6 +173,8 @@ p, h3 {
 	height: 5px;
 	margin-bottom: 9px;
 }
+
+/* Footer */
 
 .site-footer {
 	position: absolute;
