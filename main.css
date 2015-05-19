@@ -27,6 +27,8 @@ body {
 	width: 85%;
 	min-height: 47px;
 	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 }
 
 /* Site Header - Top Left Buttons */
@@ -235,6 +237,10 @@ body {
 	margin-bottom: 16px;
 }
 
+.article-text h3 {
+	font-weight: 700;
+}
+
 /* Main Article - Share Tool */
 
 #sharetool {
@@ -326,17 +332,42 @@ body {
 	margin-right: 0;	
 }
 
+/* Basic Figures */
 
+.basic-figures {
+	margin: 50px 0 45px 230px;
+	width: 57.5%;
+}
 
+.caption {
+	margin-top: 15px;
+	font-size: 13px;
+	color: #666;
+}
 
+.caption span {
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 11px;
+	color: #999;
+	font-family: "Open Sans", arial, helvetica, sans-serif;
+}
 
+/* Andrei Linde Figure */
 
+#andrei-linde {
+}
 
+/* Bicep 2 Telescope Figure */
 
+#bicep-2-telescope {
+}
 
+/* Recent Comments */
 
-
-
+#recent-comments {
+	float: right;
+}
 
 
 
