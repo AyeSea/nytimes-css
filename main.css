@@ -228,9 +228,36 @@ body {
 
 .article-text p, h3 {
 	border: 1px solid green;
+	font-size: 16px;
+	line-height: 1.25em;
 	margin-left: 260px;
 	width: 536px;
 	margin-bottom: 16px;
+}
+
+/* Main Article - Share Tool */
+
+#sharetool {
+	margin-left: 25px;
+	float: left;
+	line-height: 3.5em;
+}
+
+#sharetool li {
+	display: block;
+	width: 75px;
+	text-align: center;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+#sharetool li:last-child {
+	border-bottom: 0;
+}
+
+#sharetool li a {
+	font-family: arial,helvetica,sans-serif;
+	text-decoration: none;
+	color: #808080;
 }
 
 
