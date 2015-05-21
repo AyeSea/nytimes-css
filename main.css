@@ -566,7 +566,7 @@ body {
 #section-listings {
 	border-right: 1px solid #e2e2e2;
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 56px;
 	width: 82.5%;
 }
 
@@ -578,7 +578,7 @@ body {
 }
 
 #section-listings > ul > li {
-	margin-bottom: 8px;
+	line-height: 1.75em;
 }
 
 .section-listings-links {
@@ -599,7 +599,6 @@ body {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.05em;
-	margin-bottom: 14px;
 }
 
 /* Site Index - Subscribe Listings */
@@ -663,4 +662,26 @@ body {
   width: 1050px;
 	height: 36px;
 	border-top: 1px solid #e2e2e2;
+	color: #999;
+	font-size: 11px;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.footer-nav ul > li {
+	display: inline-block;
+	border-right: 1px solid #e2e2e2;
+	margin-top: 13px;
+	padding-right: 5px;
+}
+
+#footer-nav ul > li:last-child {
+	border-right: 0;
+}
+
+.primary-nav {
+	float: left;
+}
+
+.secondary-nav {
+	float: right;
 }
