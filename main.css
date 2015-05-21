@@ -71,7 +71,7 @@ body {
 
 /* Site Header - Center Logo */
 
-#logo {
+#main-logo {
 	position: absolute;
 	display: inline-block;
 	left: 42.5%;
@@ -533,8 +533,128 @@ body {
 	margin-bottom: 9px;
 }
 
-/* Footer */
+/* Site Index - Header */
 
+#index-logo {
+	position: absolute;
+	left: 0;
+}
+
+#to-home {
+	position: absolute;
+	right: 0;
+	margin-top: 5px;
+	color: #6288a5;
+
+}
+
+#to-home a {
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#to-home:hover {
+	text-decoration: underline;
+}
+
+#to-home a:visited {
+	color: #6288a5;
+}
+
+/* Site Index - Section Listings */
+
+#section-listings {
+	border-right: 1px solid #e2e2e2;
+	display: inline-block;
+	margin-top: 60px;
+	width: 82.5%;
+}
+
+#section-listings > ul {
+	float: left;
+	margin-right: 6.25%;
+	display: block;
+	font-family: arial,helvetica,sans-serif;
+}
+
+#section-listings > ul > li {
+	margin-bottom: 8px;
+}
+
+.section-listings-links {
+	text-decoration: none;
+	color: #000;
+}
+
+.section-listings-links:visited {
+	color: #000;
+}
+
+.section-listings-links:hover {
+	text-decoration: underline;
+}
+
+.list-title {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-bottom: 14px;
+}
+
+/* Site Index - Subscribe Listings */
+
+#subscribe-listings {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 60px;
+	width: 17%;
+}
+
+#primary-menu {
+	font-size: 15px;
+	font-family: arial,helvetica,sans-serif;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+#primary-menu > li {
+	margin-bottom: 7.5px;
+}
+
+.subscribe-icon {
+	display: inline-block;
+	width: 25px;
+}
+
+.subscribe-links-primary {
+	text-decoration: none;
+	color: #000;
+}
+
+.subscribe-links-primary:hover {
+	text-decoration: underline;
+}
+
+.subscribe-links-primary:visited {
+	color: #000;
+}
+
+.secondary-menu {
+	padding: 15px 0;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 11px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	line-height: 1.5em;
+}
+
+.secondary-menu:last-child {
+	border-bottom: 0;
+}
+
+/* Footer */
 .site-footer {
 	position: absolute;
 	bottom: 0;
