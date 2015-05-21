@@ -12,10 +12,10 @@ body {
 	display: block;
 	position: relative;
 	width: 85%;
-	/* figure out why height not expanding automatically */
-	/* height: 100%; */
 	margin-left: 7.5%;
 	margin-right: 7.5%;
+	box-shadow: -4px 0 4px 0 rgba(25,25,25,0.04);
+	padding-bottom: 500px;
 }
 
 /* Site Header */
@@ -28,6 +28,7 @@ body {
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	border-left: 1px solid #ccc;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.06);
 }
 
 /* Site Header - Top Left Buttons */
@@ -107,6 +108,7 @@ body {
 	width: 100%;
 	height: 82px;
 	border-bottom: 1px solid #ccc;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.06);
 }
 
 #related-articles li {
@@ -119,12 +121,12 @@ body {
 	margin-top: 3px;
 }
 
-.article-menu-link {
+.article-image-link {
 	text-decoration: none;
 	color: #333;
 }
 
-.article-menu-link:hover {
+.article-image-link:hover {
 	text-decoration: underline;
 }
 
@@ -151,7 +153,7 @@ body {
 
 .article-main {
 	margin-top: 32.5px;
-	margin-bottom: 500px;
+	margin-bottom: 50px;
 	max-width: 1050px;
 }
 
@@ -432,7 +434,6 @@ body {
 /* Main Article - Footer */
 
 .article-footer {
-
 	font-family: arial,helvetica,sans-serif;
 	font-size: 11px;
 	margin-left: 150px;
@@ -480,8 +481,7 @@ body {
 }
 
 #next-article { 
-	border: 1px solid green;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 
 #next-article h6, h4 {
@@ -510,15 +510,155 @@ body {
 	text-decoration: underline;
 }
 
+/* More Articles */
+
+.more-articles {
+	max-width: 1050px;
+	height: 100%;
+}
+
+/* More Articles - Related Articles Expanded */
+
+#related-articles-expanded {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	float: left;
+	width: 62.5%;
+	font-family: arial,helvetica,sans-serif;
+}
+
+#related-articles-expanded > header {
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+.col-1-title {
+	float: left;
+	margin-top: 10px;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+
+.link-to-more {
+	float: right;
+	margin-top: 13px;
+}
+
+.link-to-more > a {
+	text-decoration: none;
+	font-size: 11px;
+  color: #6288a5;
+}
+
+.link-to-more > a:hover {
+	text-decoration: underline;
+}
+
+.link-to-more > a:visited {
+  color: #6288a5;
+}
+
+#related-articles-list,
+#top-news-list {
+	clear: both;
+}
+
+#related-articles-list > li,
+#top-news-list > li {
+	display: inline-block;
+	vertical-align: top;
+	width: 210px;
+	margin-bottom: 40px;
+}
+
+#related-articles-list h6 {
+	font-size: 11px;
+	font-weight: 900;
+	font-family: arial,helvetica,sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+}
+
+#related-articles-list p,
+#top-news-list p {
+	font-size: 16px;
+	font-family: georgia,times,serif;
+	font-weight: 500;
+}
+
+
+/* More Articles - Most Emailed */
+
+#most-emailed {
+	border-top: 1px solid #e2e2e2;
+	float: right;
+	width: 32.5%;
+}
+
+#most-emailed h1 {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 11px;
+	font-family: arial,helvetica,sans-serif;
+}
+
+#most-emailed-list li {
+	clear: both;
+	display: block;
+	border-bottom: 1px solid #e2e2e2;
+	height: 40px;
+}
+
+#most-emailed-list a {
+	text-decoration: none;
+	color: #326891;
+}
+
+#most-emailed-list a:hover {
+	text-decoration: underline;
+}
+
+#most-emailed-list a:visited {
+	color: #326891;
+}
+
+.list-counter {
+	float: left;
+	height: 50px;
+	width: 40px;
+	font-size: 20px;
+	font-family: georgia,times,serif;
+	color: #333;
+	padding-left: 10px;
+}
+
+.most-emailed-image {
+	float: right;
+	height: 45px;
+	width: 45px;
+	margin-top: -7.5px;
+}
+
+#most-emailed .link-to-more {
+	float: left;
+	margin-left: -30px;
+}
+
+/* More Articles - Top News */
+#top-news {
+	clear: both;
+	float: left;
+	width: 62.5%;
+}
 
 /* Site Index */
 
 .site-index {
 	position: absolute;
-	bottom: 36px;
-	border-top: 0;
 	height: 454px;
-	width: 1050px;
+	max-width: 1050px;
 	left: 0;
 	right: 0;
 	margin-top: 20px;
